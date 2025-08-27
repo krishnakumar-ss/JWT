@@ -1,0 +1,10 @@
+http://localhost:8080/products/all
+
+Bearer token eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJLcmlzaG5hIiwiaWF0IjoxNzU2MjczNDk2LCJleHAiOjE3NTYyNzUyOTZ9.SZImvybS9YZgOzcZYzcFYX5MyjEb0wnYtWO2r1lm45o
+
+POST http://localhost:8080/products/authenticate
+
+{
+    "username":"Krishna",
+    "password":"welcome"
+}
